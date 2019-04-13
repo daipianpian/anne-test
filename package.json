@@ -1,6 +1,6 @@
 {
   "name": "anne-test",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "npm包-自己制作（测试）",
   "main": "index.js",
   "scripts": {
