@@ -1,7 +1,7 @@
 {
   "name": "anne-test",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "npm包-自己制作（测试）",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,14 @@
     "bableBuild": "./node_modules/.bin/babel src --out-dir lib",
     "prepublish": "npm run cleanLib && npm run bableBuild"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daipianpian/anne-test.git"
+  },
+  "keywords": [
+    "npm-anne-test"
+  ],
+  "author": "Anne (dai_pianpian@126.com)",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
